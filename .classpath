@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="D:/Automation/Workspace/TimesAutomationProject/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/Automation/Workspace/TimesAutomationProject/lib/java-mail-1.4.4.jar"/>
+	<classpathentry kind="lib" path="D:/Automation/Workspace/TimesAutomationProject/lib/javax.activation.jar"/>
+	<classpathentry kind="lib" path="D:/Automation/Workspace/TimesAutomationProject/lib/log4j-1.2.13.jar"/>
+	<classpathentry kind="lib" path="D:/Automation/Workspace/TimesAutomationProject/lib/poi-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="D:/Automation/Workspace/TimesAutomationProject/lib/poi-examples-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="D:/Automation/Workspace/TimesAutomationProject/lib/poi-excelant-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="D:/Automation/Workspace/TimesAutomationProject/lib/poi-ooxml-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="D:/Automation/Workspace/TimesAutomationProject/lib/poi-ooxml-schemas-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="D:/Automation/Workspace/TimesAutomationProject/lib/poi-scratchpad-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="D:/Automation/Workspace/TimesAutomationProject/lib/reportng-1.1.4.jar"/>
+	<classpathentry kind="lib" path="D:/Automation/Workspace/TimesAutomationProject/lib/saxon-8.7.jar"/>
+	<classpathentry kind="lib" path="D:/Automation/Workspace/TimesAutomationProject/lib/SaxonLiaison.jar"/>
+	<classpathentry kind="lib" path="D:/Automation/Workspace/TimesAutomationProject/lib/selenium-server-standalone-2.44.0.jar"/>
+	<classpathentry kind="lib" path="D:/Automation/Workspace/TimesAutomationProject/lib/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/Automation/Workspace/TimesAutomationProject/lib/testng-6.9beta.jar"/>
+	<classpathentry kind="lib" path="D:/Automation/Workspace/TimesAutomationProject/lib/velocity-dep-1.4.jar"/>
+	<classpathentry kind="lib" path="D:/Automation/Workspace/TimesAutomationProject/lib/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

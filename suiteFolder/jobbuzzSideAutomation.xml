@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="JOB BUZZ TEST CASES" >
+  <test name="JOBBUZZ">
+    <classes>
+      <class name="jobbuzzSideAutomation.jobuzzside"/>
+    </classes>
+  </test>
+  
+  <!-- <test name="TestB">  
+      <classes>
+      <class name="loginSuit1.Firsttestcase"/>
+    </classes>
+  </test> Test -->
+</suite> <!-- Suite1 -->

@@ -1,0 +1,1494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="17" total="40" passed="23">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TimesJobs Suite" duration-ms="0" started-at="2015-06-05T11:43:16Z" finished-at="2015-06-05T11:43:16Z">
+    <groups>
+    </groups>
+  </suite> <!-- TimesJobs Suite -->
+  <suite name="HIRE SIDE TEST CASES" duration-ms="1483575" started-at="2015-06-05T11:18:31Z" finished-at="2015-06-05T11:43:15Z">
+    <groups>
+    </groups>
+    <test name="Registration" duration-ms="43292" started-at="2015-06-05T11:18:31Z" finished-at="2015-06-05T11:19:15Z">
+      <class name="hireSideAutomation.hireRegistration">
+        <test-method status="PASS" signature="setup()[pri:0, instance:hireSideAutomation.hireRegistration@17e6a96]" name="setup" is-config="true" duration-ms="9128" started-at="2015-06-05T16:48:31Z" finished-at="2015-06-05T16:48:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Registration()[pri:0, instance:hireSideAutomation.hireRegistration@17e6a96]" name="Registration" duration-ms="33852" started-at="2015-06-05T16:48:41Z" finished-at="2015-06-05T16:49:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:hireSideAutomation.hireRegistration@17e6a96]" name="teardown" is-config="true" duration-ms="312" started-at="2015-06-05T16:49:14Z" finished-at="2015-06-05T16:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- hireSideAutomation.hireRegistration -->
+    </test> <!-- Registration -->
+    <test name="account" duration-ms="125461" started-at="2015-06-05T11:19:15Z" finished-at="2015-06-05T11:21:20Z">
+      <class name="hireSideAutomation.ManageAccountUser">
+        <test-method status="PASS" signature="setup()[pri:0, instance:hireSideAutomation.ManageAccountUser@1c6f579]" name="setup" is-config="true" duration-ms="8520" started-at="2015-06-05T16:49:15Z" finished-at="2015-06-05T16:49:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="CreateUser()[pri:0, instance:hireSideAutomation.ManageAccountUser@1c6f579]" name="CreateUser" duration-ms="26816" started-at="2015-06-05T16:49:23Z" finished-at="2015-06-05T16:49:50Z">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[Modal dialog present: Please select the Industry.
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Session ID: 9d079d31-9bfa-46e6-b119-defa884763b4
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=33.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: Modal dialog present: Please select the Industry.
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Session ID: 9d079d31-9bfa-46e6-b119-defa884763b4
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=33.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:185)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:152)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at hireSideAutomation.ManageAccountUser.CreateUser(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateUser -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:hireSideAutomation.ManageAccountUser@1c6f579]" name="teardown" is-config="true" duration-ms="343" started-at="2015-06-05T16:49:50Z" finished-at="2015-06-05T16:49:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:hireSideAutomation.ManageAccountUser@1c6f579]" name="setup" is-config="true" duration-ms="8239" started-at="2015-06-05T16:49:50Z" finished-at="2015-06-05T16:49:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="EditUser()[pri:0, instance:hireSideAutomation.ManageAccountUser@1c6f579]" name="EditUser" duration-ms="23587" started-at="2015-06-05T16:49:59Z" finished-at="2015-06-05T16:50:22Z">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[Modal dialog present: Please Select Licenses.
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Session ID: e05feaf8-e5af-41e6-9003-e03ddc82214c
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=33.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: Modal dialog present: Please Select Licenses.
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Session ID: e05feaf8-e5af-41e6-9003-e03ddc82214c
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=33.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:185)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:152)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at hireSideAutomation.ManageAccountUser.EditUser(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditUser -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:hireSideAutomation.ManageAccountUser@1c6f579]" name="teardown" is-config="true" duration-ms="390" started-at="2015-06-05T16:50:22Z" finished-at="2015-06-05T16:50:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:hireSideAutomation.ManageAccountUser@1c6f579]" name="setup" is-config="true" duration-ms="7865" started-at="2015-06-05T16:50:23Z" finished-at="2015-06-05T16:50:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="EditProfile()[pri:0, instance:hireSideAutomation.ManageAccountUser@1c6f579]" name="EditProfile" duration-ms="49374" started-at="2015-06-05T16:50:30Z" finished-at="2015-06-05T16:51:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditProfile -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:hireSideAutomation.ManageAccountUser@1c6f579]" name="teardown" is-config="true" duration-ms="327" started-at="2015-06-05T16:51:20Z" finished-at="2015-06-05T16:51:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- hireSideAutomation.ManageAccountUser -->
+    </test> <!-- account -->
+    <test name="wizjob" duration-ms="135800" started-at="2015-06-05T11:21:20Z" finished-at="2015-06-05T11:23:36Z">
+      <class name="hireSideAutomation.EmployerPostingPreviewDraftEdit">
+        <test-method status="PASS" signature="setup()[pri:0, instance:hireSideAutomation.EmployerPostingPreviewDraftEdit@1ad77a7]" name="setup" is-config="true" duration-ms="38206" started-at="2015-06-05T16:51:20Z" finished-at="2015-06-05T16:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="previewJob()[pri:0, instance:hireSideAutomation.EmployerPostingPreviewDraftEdit@1ad77a7]" name="previewJob" duration-ms="33743" started-at="2015-06-05T16:51:58Z" finished-at="2015-06-05T16:52:32Z">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[Modal dialog present: You can only select a maximum of 1 Location 
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Session ID: 4410bb93-8d52-4145-a05a-415dd03a79af
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=33.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: Modal dialog present: You can only select a maximum of 1 Location 
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Session ID: 4410bb93-8d52-4145-a05a-415dd03a79af
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=33.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:185)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:152)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at hireSideAutomation.hireBaseFunctions.JobPostingFormFill(Unknown Source)
+	at hireSideAutomation.EmployerPostingPreviewDraftEdit.previewJob(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- previewJob -->
+        <test-method status="FAIL" signature="SaveDraftJob()[pri:0, instance:hireSideAutomation.EmployerPostingPreviewDraftEdit@1ad77a7]" name="SaveDraftJob" duration-ms="31746" started-at="2015-06-05T16:52:32Z" finished-at="2015-06-05T16:53:04Z">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[Modal dialog present: You can only select a maximum of 1 Location 
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Session ID: 4410bb93-8d52-4145-a05a-415dd03a79af
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=33.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: Modal dialog present: You can only select a maximum of 1 Location 
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Session ID: 4410bb93-8d52-4145-a05a-415dd03a79af
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=33.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:185)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:152)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at hireSideAutomation.hireBaseFunctions.JobPostingFormFill(Unknown Source)
+	at hireSideAutomation.EmployerPostingPreviewDraftEdit.SaveDraftJob(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SaveDraftJob -->
+        <test-method status="FAIL" signature="EditJob()[pri:0, instance:hireSideAutomation.EmployerPostingPreviewDraftEdit@1ad77a7]" name="EditJob" duration-ms="31731" started-at="2015-06-05T16:53:04Z" finished-at="2015-06-05T16:53:36Z">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[Modal dialog present: You can only select a maximum of 1 Location 
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Session ID: 4410bb93-8d52-4145-a05a-415dd03a79af
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=33.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: Modal dialog present: You can only select a maximum of 1 Location 
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Session ID: 4410bb93-8d52-4145-a05a-415dd03a79af
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=33.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:185)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:152)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at hireSideAutomation.hireBaseFunctions.JobPostingFormFill(Unknown Source)
+	at hireSideAutomation.EmployerPostingPreviewDraftEdit.postJob(Unknown Source)
+	at hireSideAutomation.EmployerPostingPreviewDraftEdit.EditJob(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditJob -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:hireSideAutomation.EmployerPostingPreviewDraftEdit@1ad77a7]" name="teardown" is-config="true" duration-ms="374" started-at="2015-06-05T16:53:36Z" finished-at="2015-06-05T16:53:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- hireSideAutomation.EmployerPostingPreviewDraftEdit -->
+    </test> <!-- wizjob -->
+    <test name="search" duration-ms="237760" started-at="2015-06-05T11:23:36Z" finished-at="2015-06-05T11:27:34Z">
+      <class name="hireSideAutomation.hireSearch">
+        <test-method status="PASS" signature="setup()[pri:0, instance:hireSideAutomation.hireSearch@16a786]" name="setup" is-config="true" duration-ms="8254" started-at="2015-06-05T16:53:36Z" finished-at="2015-06-05T16:53:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="quickSearch_keyword()[pri:0, instance:hireSideAutomation.hireSearch@16a786]" name="quickSearch_keyword" duration-ms="20405" started-at="2015-06-05T16:53:44Z" finished-at="2015-06-05T16:54:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quickSearch_keyword -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:hireSideAutomation.hireSearch@16a786]" name="teardown" is-config="true" duration-ms="343" started-at="2015-06-05T16:54:05Z" finished-at="2015-06-05T16:54:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:hireSideAutomation.hireSearch@16a786]" name="setup" is-config="true" duration-ms="7771" started-at="2015-06-05T16:54:05Z" finished-at="2015-06-05T16:54:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="quickSearchEasyBoolean()[pri:0, instance:hireSideAutomation.hireSearch@16a786]" name="quickSearchEasyBoolean" duration-ms="23353" started-at="2015-06-05T16:54:13Z" finished-at="2015-06-05T16:54:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quickSearchEasyBoolean -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:hireSideAutomation.hireSearch@16a786]" name="teardown" is-config="true" duration-ms="608" started-at="2015-06-05T16:54:36Z" finished-at="2015-06-05T16:54:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:hireSideAutomation.hireSearch@16a786]" name="setup" is-config="true" duration-ms="8629" started-at="2015-06-05T16:54:37Z" finished-at="2015-06-05T16:54:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="quickSearchlocations()[pri:0, instance:hireSideAutomation.hireSearch@16a786]" name="quickSearchlocations" duration-ms="21123" started-at="2015-06-05T16:54:45Z" finished-at="2015-06-05T16:55:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quickSearchlocations -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:hireSideAutomation.hireSearch@16a786]" name="teardown" is-config="true" duration-ms="405" started-at="2015-06-05T16:55:06Z" finished-at="2015-06-05T16:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:hireSideAutomation.hireSearch@16a786]" name="setup" is-config="true" duration-ms="7740" started-at="2015-06-05T16:55:07Z" finished-at="2015-06-05T16:55:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="quickSearchExperience()[pri:0, instance:hireSideAutomation.hireSearch@16a786]" name="quickSearchExperience" duration-ms="19125" started-at="2015-06-05T16:55:15Z" finished-at="2015-06-05T16:55:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quickSearchExperience -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:hireSideAutomation.hireSearch@16a786]" name="teardown" is-config="true" duration-ms="359" started-at="2015-06-05T16:55:34Z" finished-at="2015-06-05T16:55:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:hireSideAutomation.hireSearch@16a786]" name="setup" is-config="true" duration-ms="9222" started-at="2015-06-05T16:55:34Z" finished-at="2015-06-05T16:55:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="advanceSearchKeyword()[pri:0, instance:hireSideAutomation.hireSearch@16a786]" name="advanceSearchKeyword" duration-ms="23025" started-at="2015-06-05T16:55:43Z" finished-at="2015-06-05T16:56:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- advanceSearchKeyword -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:hireSideAutomation.hireSearch@16a786]" name="teardown" is-config="true" duration-ms="593" started-at="2015-06-05T16:56:06Z" finished-at="2015-06-05T16:56:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:hireSideAutomation.hireSearch@16a786]" name="setup" is-config="true" duration-ms="7865" started-at="2015-06-05T16:56:07Z" finished-at="2015-06-05T16:56:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="advanceSearchLocation()[pri:0, instance:hireSideAutomation.hireSearch@16a786]" name="advanceSearchLocation" duration-ms="22230" started-at="2015-06-05T16:56:15Z" finished-at="2015-06-05T16:56:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- advanceSearchLocation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:hireSideAutomation.hireSearch@16a786]" name="teardown" is-config="true" duration-ms="499" started-at="2015-06-05T16:56:37Z" finished-at="2015-06-05T16:56:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:hireSideAutomation.hireSearch@16a786]" name="setup" is-config="true" duration-ms="7771" started-at="2015-06-05T16:56:38Z" finished-at="2015-06-05T16:56:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="advanceSearchSallary()[pri:0, instance:hireSideAutomation.hireSearch@16a786]" name="advanceSearchSallary" duration-ms="19734" started-at="2015-06-05T16:56:45Z" finished-at="2015-06-05T16:57:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- advanceSearchSallary -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:hireSideAutomation.hireSearch@16a786]" name="teardown" is-config="true" duration-ms="530" started-at="2015-06-05T16:57:05Z" finished-at="2015-06-05T16:57:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:hireSideAutomation.hireSearch@16a786]" name="setup" is-config="true" duration-ms="7833" started-at="2015-06-05T16:57:06Z" finished-at="2015-06-05T16:57:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="advanceSearchFunctionalArea()[pri:0, instance:hireSideAutomation.hireSearch@16a786]" name="advanceSearchFunctionalArea" duration-ms="19843" started-at="2015-06-05T16:57:13Z" finished-at="2015-06-05T16:57:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- advanceSearchFunctionalArea -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:hireSideAutomation.hireSearch@16a786]" name="teardown" is-config="true" duration-ms="500" started-at="2015-06-05T16:57:33Z" finished-at="2015-06-05T16:57:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- hireSideAutomation.hireSearch -->
+    </test> <!-- search -->
+    <test name="Collaborate" duration-ms="236333" started-at="2015-06-05T11:27:34Z" finished-at="2015-06-05T11:31:30Z">
+      <class name="hireSideAutomation.hireCollaborate">
+        <test-method status="PASS" signature="setup()[pri:0, instance:hireSideAutomation.hireCollaborate@129f3b5]" name="setup" is-config="true" duration-ms="7833" started-at="2015-06-05T16:57:34Z" finished-at="2015-06-05T16:57:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="shareFolder()[pri:0, instance:hireSideAutomation.hireCollaborate@129f3b5]" name="shareFolder" duration-ms="70263" started-at="2015-06-05T16:57:42Z" finished-at="2015-06-05T16:58:52Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"html/body/div[1]/div[1]/div[2]/div[1]/div[4]/div/div[1]/div[2]/b"}
+Command duration or timeout: 31.47 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Session ID: d093b76e-bf2c-4a58-a851-c96e98516590
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=33.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"html/body/div[1]/div[1]/div[2]/div[1]/div[4]/div/div[1]/div[2]/b"}
+Command duration or timeout: 31.47 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Session ID: d093b76e-bf2c-4a58-a851-c96e98516590
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=33.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at hireSideAutomation.hireCollaborate.shareFolder(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"html/body/div[1]/div[1]/div[2]/div[1]/div[4]/div/div[1]/div[2]/b"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/DEEPSH~1/AppData/Local/Temp/anonymous4729webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641:26)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/DEEPSH~1/AppData/Local/Temp/anonymous4729webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shareFolder -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:hireSideAutomation.hireCollaborate@129f3b5]" name="teardown" is-config="true" duration-ms="374" started-at="2015-06-05T16:58:52Z" finished-at="2015-06-05T16:58:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:hireSideAutomation.hireCollaborate@129f3b5]" name="setup" is-config="true" duration-ms="8270" started-at="2015-06-05T16:58:52Z" finished-at="2015-06-05T16:59:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="shareinbox()[pri:0, instance:hireSideAutomation.hireCollaborate@129f3b5]" name="shareinbox" duration-ms="67033" started-at="2015-06-05T16:59:01Z" finished-at="2015-06-05T17:00:08Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"html/body/div[1]/div[1]/div[2]/div[4]/div[2]/div/ul/li[1]/b/span"}
+Command duration or timeout: 30.54 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Session ID: 71180754-6482-40f0-90dd-a273ca04e5fe
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=33.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"html/body/div[1]/div[1]/div[2]/div[4]/div[2]/div/ul/li[1]/b/span"}
+Command duration or timeout: 30.54 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Session ID: 71180754-6482-40f0-90dd-a273ca04e5fe
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=33.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at hireSideAutomation.hireCollaborate.shareinbox(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"html/body/div[1]/div[1]/div[2]/div[4]/div[2]/div/ul/li[1]/b/span"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/DEEPSH~1/AppData/Local/Temp/anonymous4731webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641:26)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/DEEPSH~1/AppData/Local/Temp/anonymous4731webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shareinbox -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:hireSideAutomation.hireCollaborate@129f3b5]" name="teardown" is-config="true" duration-ms="375" started-at="2015-06-05T17:00:08Z" finished-at="2015-06-05T17:00:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:hireSideAutomation.hireCollaborate@129f3b5]" name="setup" is-config="true" duration-ms="7817" started-at="2015-06-05T17:00:08Z" finished-at="2015-06-05T17:00:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="unshareFolder()[pri:0, instance:hireSideAutomation.hireCollaborate@129f3b5]" name="unshareFolder" duration-ms="18112" started-at="2015-06-05T17:00:16Z" finished-at="2015-06-05T17:00:34Z">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[Modal dialog present: Your Account does not have any Account User. Please create an Account User to share this Folder
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Session ID: 03fd600e-ea57-48bb-b667-9575f4563114
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=33.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: Modal dialog present: Your Account does not have any Account User. Please create an Account User to share this Folder
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Session ID: 03fd600e-ea57-48bb-b667-9575f4563114
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=33.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:185)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:152)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at hireSideAutomation.hireCollaborate.unshareFolder(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unshareFolder -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:hireSideAutomation.hireCollaborate@129f3b5]" name="teardown" is-config="true" duration-ms="328" started-at="2015-06-05T17:00:34Z" finished-at="2015-06-05T17:00:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:hireSideAutomation.hireCollaborate@129f3b5]" name="setup" is-config="true" duration-ms="8051" started-at="2015-06-05T17:00:34Z" finished-at="2015-06-05T17:00:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="unshareinbox()[pri:0, instance:hireSideAutomation.hireCollaborate@129f3b5]" name="unshareinbox" duration-ms="47549" started-at="2015-06-05T17:00:42Z" finished-at="2015-06-05T17:01:30Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//*[@id='shareInbox']/table/tbody/tr/td/table/tbody/tr[3]/td[1]/div/input"}
+Command duration or timeout: 30.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Session ID: 4ab1dff0-69ab-4c7c-be07-67b1dddf8faa
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=33.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='shareInbox']/table/tbody/tr/td/table/tbody/tr[3]/td[1]/div/input"}
+Command duration or timeout: 30.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Session ID: 4ab1dff0-69ab-4c7c-be07-67b1dddf8faa
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=33.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at hireSideAutomation.hireCollaborate.unshareinbox(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='shareInbox']/table/tbody/tr/td/table/tbody/tr[3]/td[1]/div/input"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/DEEPSH~1/AppData/Local/Temp/anonymous4735webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641:26)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/DEEPSH~1/AppData/Local/Temp/anonymous4735webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unshareinbox -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:hireSideAutomation.hireCollaborate@129f3b5]" name="teardown" is-config="true" duration-ms="328" started-at="2015-06-05T17:01:30Z" finished-at="2015-06-05T17:01:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- hireSideAutomation.hireCollaborate -->
+    </test> <!-- Collaborate -->
+    <test name="UsageReport" duration-ms="300790" started-at="2015-06-05T11:31:30Z" finished-at="2015-06-05T11:36:31Z">
+      <class name="hireSideAutomation.HireUsageReport">
+        <test-method status="PASS" signature="login()[pri:0, instance:hireSideAutomation.HireUsageReport@1ccce3c]" name="login" is-config="true" duration-ms="11234" started-at="2015-06-05T17:01:30Z" finished-at="2015-06-05T17:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="XpressHireSMSUsageReportNEW()[pri:0, instance:hireSideAutomation.HireUsageReport@1ccce3c]" name="XpressHireSMSUsageReportNEW" duration-ms="18346" started-at="2015-06-05T17:01:41Z" finished-at="2015-06-05T17:02:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- XpressHireSMSUsageReportNEW -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:hireSideAutomation.HireUsageReport@1ccce3c]" name="teardown" is-config="true" duration-ms="452" started-at="2015-06-05T17:02:00Z" finished-at="2015-06-05T17:02:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="login()[pri:0, instance:hireSideAutomation.HireUsageReport@1ccce3c]" name="login" is-config="true" duration-ms="8036" started-at="2015-06-05T17:02:00Z" finished-at="2015-06-05T17:02:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="OTPReport()[pri:0, instance:hireSideAutomation.HireUsageReport@1ccce3c]" name="OTPReport" duration-ms="18533" started-at="2015-06-05T17:02:08Z" finished-at="2015-06-05T17:02:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OTPReport -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:hireSideAutomation.HireUsageReport@1ccce3c]" name="teardown" is-config="true" duration-ms="468" started-at="2015-06-05T17:02:27Z" finished-at="2015-06-05T17:02:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="login()[pri:0, instance:hireSideAutomation.HireUsageReport@1ccce3c]" name="login" is-config="true" duration-ms="7459" started-at="2015-06-05T17:02:27Z" finished-at="2015-06-05T17:02:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="JobListingUsagesReport()[pri:0, instance:hireSideAutomation.HireUsageReport@1ccce3c]" name="JobListingUsagesReport" duration-ms="18127" started-at="2015-06-05T17:02:35Z" finished-at="2015-06-05T17:02:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JobListingUsagesReport -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:hireSideAutomation.HireUsageReport@1ccce3c]" name="teardown" is-config="true" duration-ms="483" started-at="2015-06-05T17:02:53Z" finished-at="2015-06-05T17:02:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="login()[pri:0, instance:hireSideAutomation.HireUsageReport@1ccce3c]" name="login" is-config="true" duration-ms="7303" started-at="2015-06-05T17:02:53Z" finished-at="2015-06-05T17:03:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="DatabaseUsageReport()[pri:0, instance:hireSideAutomation.HireUsageReport@1ccce3c]" name="DatabaseUsageReport" duration-ms="18221" started-at="2015-06-05T17:03:01Z" finished-at="2015-06-05T17:03:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DatabaseUsageReport -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:hireSideAutomation.HireUsageReport@1ccce3c]" name="teardown" is-config="true" duration-ms="328" started-at="2015-06-05T17:03:19Z" finished-at="2015-06-05T17:03:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="login()[pri:0, instance:hireSideAutomation.HireUsageReport@1ccce3c]" name="login" is-config="true" duration-ms="8270" started-at="2015-06-05T17:03:19Z" finished-at="2015-06-05T17:03:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="LoginReport()[pri:0, instance:hireSideAutomation.HireUsageReport@1ccce3c]" name="LoginReport" duration-ms="18626" started-at="2015-06-05T17:03:27Z" finished-at="2015-06-05T17:03:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginReport -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:hireSideAutomation.HireUsageReport@1ccce3c]" name="teardown" is-config="true" duration-ms="624" started-at="2015-06-05T17:03:46Z" finished-at="2015-06-05T17:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="login()[pri:0, instance:hireSideAutomation.HireUsageReport@1ccce3c]" name="login" is-config="true" duration-ms="8317" started-at="2015-06-05T17:03:47Z" finished-at="2015-06-05T17:03:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="XpressHireSMSUsageReport()[pri:0, instance:hireSideAutomation.HireUsageReport@1ccce3c]" name="XpressHireSMSUsageReport" duration-ms="19313" started-at="2015-06-05T17:03:55Z" finished-at="2015-06-05T17:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- XpressHireSMSUsageReport -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:hireSideAutomation.HireUsageReport@1ccce3c]" name="teardown" is-config="true" duration-ms="468" started-at="2015-06-05T17:04:14Z" finished-at="2015-06-05T17:04:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="login()[pri:0, instance:hireSideAutomation.HireUsageReport@1ccce3c]" name="login" is-config="true" duration-ms="7443" started-at="2015-06-05T17:04:15Z" finished-at="2015-06-05T17:04:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="XpressHirewithSMSContact()[pri:0, instance:hireSideAutomation.HireUsageReport@1ccce3c]" name="XpressHirewithSMSContact" duration-ms="18314" started-at="2015-06-05T17:04:22Z" finished-at="2015-06-05T17:04:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- XpressHirewithSMSContact -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:hireSideAutomation.HireUsageReport@1ccce3c]" name="teardown" is-config="true" duration-ms="312" started-at="2015-06-05T17:04:41Z" finished-at="2015-06-05T17:04:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="login()[pri:0, instance:hireSideAutomation.HireUsageReport@1ccce3c]" name="login" is-config="true" duration-ms="7662" started-at="2015-06-05T17:04:41Z" finished-at="2015-06-05T17:04:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="XpressHirewithSMSInbox()[pri:0, instance:hireSideAutomation.HireUsageReport@1ccce3c]" name="XpressHirewithSMSInbox" duration-ms="19141" started-at="2015-06-05T17:04:48Z" finished-at="2015-06-05T17:05:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- XpressHirewithSMSInbox -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:hireSideAutomation.HireUsageReport@1ccce3c]" name="teardown" is-config="true" duration-ms="452" started-at="2015-06-05T17:05:08Z" finished-at="2015-06-05T17:05:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="login()[pri:0, instance:hireSideAutomation.HireUsageReport@1ccce3c]" name="login" is-config="true" duration-ms="7724" started-at="2015-06-05T17:05:08Z" finished-at="2015-06-05T17:05:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="DialBPOJobPostingUsageReport()[pri:0, instance:hireSideAutomation.HireUsageReport@1ccce3c]" name="DialBPOJobPostingUsageReport" duration-ms="18252" started-at="2015-06-05T17:05:16Z" finished-at="2015-06-05T17:05:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DialBPOJobPostingUsageReport -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:hireSideAutomation.HireUsageReport@1ccce3c]" name="teardown" is-config="true" duration-ms="780" started-at="2015-06-05T17:05:34Z" finished-at="2015-06-05T17:05:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="login()[pri:0, instance:hireSideAutomation.HireUsageReport@1ccce3c]" name="login" is-config="true" duration-ms="9113" started-at="2015-06-05T17:05:35Z" finished-at="2015-06-05T17:05:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="DivineIPUsageReport()[pri:0, instance:hireSideAutomation.HireUsageReport@1ccce3c]" name="DivineIPUsageReport" duration-ms="17597" started-at="2015-06-05T17:05:44Z" finished-at="2015-06-05T17:06:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DivineIPUsageReport -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:hireSideAutomation.HireUsageReport@1ccce3c]" name="teardown" is-config="true" duration-ms="514" started-at="2015-06-05T17:06:02Z" finished-at="2015-06-05T17:06:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="login()[pri:0, instance:hireSideAutomation.HireUsageReport@1ccce3c]" name="login" is-config="true" duration-ms="8551" started-at="2015-06-05T17:06:02Z" finished-at="2015-06-05T17:06:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="MassMailingUsageReport()[pri:0, instance:hireSideAutomation.HireUsageReport@1ccce3c]" name="MassMailingUsageReport" duration-ms="19875" started-at="2015-06-05T17:06:11Z" finished-at="2015-06-05T17:06:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MassMailingUsageReport -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:hireSideAutomation.HireUsageReport@1ccce3c]" name="teardown" is-config="true" duration-ms="452" started-at="2015-06-05T17:06:30Z" finished-at="2015-06-05T17:06:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- hireSideAutomation.HireUsageReport -->
+    </test> <!-- UsageReport -->
+    <test name="Searchapplicationjob" duration-ms="121809" started-at="2015-06-05T11:36:31Z" finished-at="2015-06-05T11:38:33Z">
+      <class name="hireSideAutomation.searchApplication">
+        <test-method status="PASS" signature="setup()[pri:0, instance:hireSideAutomation.searchApplication@1ce2dd4]" name="setup" is-config="true" duration-ms="7942" started-at="2015-06-05T17:06:31Z" finished-at="2015-06-05T17:06:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchApplicationwithActivejob()[pri:0, instance:hireSideAutomation.searchApplication@1ce2dd4]" name="searchApplicationwithActivejob" duration-ms="18939" started-at="2015-06-05T17:06:39Z" finished-at="2015-06-05T17:06:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchApplicationwithActivejob -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:hireSideAutomation.searchApplication@1ce2dd4]" name="teardown" is-config="true" duration-ms="0" started-at="2015-06-05T17:06:58Z" finished-at="2015-06-05T17:06:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:hireSideAutomation.searchApplication@1ce2dd4]" name="setup" is-config="true" duration-ms="8551" started-at="2015-06-05T17:06:58Z" finished-at="2015-06-05T17:07:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="searchApplicationwithkeyskill()[pri:0, instance:hireSideAutomation.searchApplication@1ce2dd4]" name="searchApplicationwithkeyskill" duration-ms="86377" started-at="2015-06-05T17:07:06Z" finished-at="2015-06-05T17:08:33Z">
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index: 2, Size: 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index: 2, Size: 0
+	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
+	at java.util.ArrayList.get(ArrayList.java:322)
+	at hireSideAutomation.searchApplication.searchApplicationwithkeyskill(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchApplicationwithkeyskill -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:hireSideAutomation.searchApplication@1ce2dd4]" name="teardown" is-config="true" duration-ms="0" started-at="2015-06-05T17:08:33Z" finished-at="2015-06-05T17:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- hireSideAutomation.searchApplication -->
+    </test> <!-- Searchapplicationjob -->
+    <test name="SRP" duration-ms="282191" started-at="2015-06-05T11:38:33Z" finished-at="2015-06-05T11:43:15Z">
+      <class name="hireSideAutomation.SearchResultPage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:hireSideAutomation.SearchResultPage@91cee]" name="setup" is-config="true" duration-ms="21437" started-at="2015-06-05T17:08:33Z" finished-at="2015-06-05T17:08:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SendJobasEmail()[pri:0, instance:hireSideAutomation.SearchResultPage@91cee]" name="SendJobasEmail" duration-ms="25241" started-at="2015-06-05T17:08:54Z" finished-at="2015-06-05T17:09:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendJobasEmail -->
+        <test-method status="FAIL" signature="SendEmail()[pri:0, instance:hireSideAutomation.SearchResultPage@91cee]" name="SendEmail" duration-ms="54475" started-at="2015-06-05T17:09:19Z" finished-at="2015-06-05T17:10:14Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//input[@class='submit_btn2' and @name='cancel']"}
+Command duration or timeout: 30.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Session ID: 60d31dfe-0604-4a6a-929a-8a1267e0dba2
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=33.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//input[@class='submit_btn2' and @name='cancel']"}
+Command duration or timeout: 30.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Session ID: 60d31dfe-0604-4a6a-929a-8a1267e0dba2
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=33.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at hireSideAutomation.SearchResultPage.SendEmail(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//input[@class='submit_btn2' and @name='cancel']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/DEEPSH~1/AppData/Local/Temp/anonymous4774webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641:26)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/DEEPSH~1/AppData/Local/Temp/anonymous4774webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendEmail -->
+        <test-method status="FAIL" signature="DeleteJob()[pri:0, instance:hireSideAutomation.SearchResultPage@91cee]" name="DeleteJob" duration-ms="30045" started-at="2015-06-05T17:10:14Z" finished-at="2015-06-05T17:10:44Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"css selector","selector":"#maintab_postJobs > a > b"}
+Command duration or timeout: 30.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Session ID: 60d31dfe-0604-4a6a-929a-8a1267e0dba2
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=33.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"#maintab_postJobs > a > b"}
+Command duration or timeout: 30.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Session ID: 60d31dfe-0604-4a6a-929a-8a1267e0dba2
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=33.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:441)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:426)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at hireSideAutomation.SearchResultPage.DeleteJob(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"#maintab_postJobs > a > b"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/DEEPSH~1/AppData/Local/Temp/anonymous4774webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641:26)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/DEEPSH~1/AppData/Local/Temp/anonymous4774webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteJob -->
+        <test-method status="FAIL" signature="AddComment()[pri:0, instance:hireSideAutomation.SearchResultPage@91cee]" name="AddComment" duration-ms="30030" started-at="2015-06-05T17:10:44Z" finished-at="2015-06-05T17:11:14Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//li[@id='maintab_searchCand']//a"}
+Command duration or timeout: 30.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Session ID: 60d31dfe-0604-4a6a-929a-8a1267e0dba2
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=33.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//li[@id='maintab_searchCand']//a"}
+Command duration or timeout: 30.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Session ID: 60d31dfe-0604-4a6a-929a-8a1267e0dba2
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=33.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at hireSideAutomation.hireBaseFunctions.Search(Unknown Source)
+	at hireSideAutomation.SearchResultPage.AddComment(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//li[@id='maintab_searchCand']//a"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/DEEPSH~1/AppData/Local/Temp/anonymous4774webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641:26)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/DEEPSH~1/AppData/Local/Temp/anonymous4774webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddComment -->
+        <test-method status="FAIL" signature="Shortlist()[pri:0, instance:hireSideAutomation.SearchResultPage@91cee]" name="Shortlist" duration-ms="30077" started-at="2015-06-05T17:11:14Z" finished-at="2015-06-05T17:11:44Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//li[@id='maintab_searchCand']//a"}
+Command duration or timeout: 30.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Session ID: 60d31dfe-0604-4a6a-929a-8a1267e0dba2
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=33.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//li[@id='maintab_searchCand']//a"}
+Command duration or timeout: 30.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Session ID: 60d31dfe-0604-4a6a-929a-8a1267e0dba2
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=33.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at hireSideAutomation.hireBaseFunctions.Search(Unknown Source)
+	at hireSideAutomation.SearchResultPage.Shortlist(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//li[@id='maintab_searchCand']//a"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/DEEPSH~1/AppData/Local/Temp/anonymous4774webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641:26)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/DEEPSH~1/AppData/Local/Temp/anonymous4774webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Shortlist -->
+        <test-method status="FAIL" signature="SavewithON()[pri:0, instance:hireSideAutomation.SearchResultPage@91cee]" name="SavewithON" duration-ms="30077" started-at="2015-06-05T17:11:44Z" finished-at="2015-06-05T17:12:14Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//li[@id='maintab_searchCand']//a"}
+Command duration or timeout: 30.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Session ID: 60d31dfe-0604-4a6a-929a-8a1267e0dba2
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=33.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//li[@id='maintab_searchCand']//a"}
+Command duration or timeout: 30.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Session ID: 60d31dfe-0604-4a6a-929a-8a1267e0dba2
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=33.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at hireSideAutomation.hireBaseFunctions.Search(Unknown Source)
+	at hireSideAutomation.SearchResultPage.SavewithON(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//li[@id='maintab_searchCand']//a"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/DEEPSH~1/AppData/Local/Temp/anonymous4774webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641:26)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/DEEPSH~1/AppData/Local/Temp/anonymous4774webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SavewithON -->
+        <test-method status="FAIL" signature="SavewithOFF()[pri:0, instance:hireSideAutomation.SearchResultPage@91cee]" name="SavewithOFF" duration-ms="30139" started-at="2015-06-05T17:12:14Z" finished-at="2015-06-05T17:12:44Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//li[@id='maintab_searchCand']//a"}
+Command duration or timeout: 30.14 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Session ID: 60d31dfe-0604-4a6a-929a-8a1267e0dba2
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=33.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//li[@id='maintab_searchCand']//a"}
+Command duration or timeout: 30.14 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Session ID: 60d31dfe-0604-4a6a-929a-8a1267e0dba2
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=33.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at hireSideAutomation.hireBaseFunctions.Search(Unknown Source)
+	at hireSideAutomation.SearchResultPage.SavewithOFF(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//li[@id='maintab_searchCand']//a"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/DEEPSH~1/AppData/Local/Temp/anonymous4774webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641:26)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/DEEPSH~1/AppData/Local/Temp/anonymous4774webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SavewithOFF -->
+        <test-method status="FAIL" signature="viewResume()[pri:0, instance:hireSideAutomation.SearchResultPage@91cee]" name="viewResume" duration-ms="30030" started-at="2015-06-05T17:12:44Z" finished-at="2015-06-05T17:13:14Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//li[@id='maintab_searchCand']//a"}
+Command duration or timeout: 30.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Session ID: 60d31dfe-0604-4a6a-929a-8a1267e0dba2
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=33.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//li[@id='maintab_searchCand']//a"}
+Command duration or timeout: 30.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Session ID: 60d31dfe-0604-4a6a-929a-8a1267e0dba2
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=33.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at hireSideAutomation.hireBaseFunctions.Search(Unknown Source)
+	at hireSideAutomation.SearchResultPage.viewResume(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//li[@id='maintab_searchCand']//a"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'NODTBSD181AG', ip: '10.150.241.67', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/DEEPSH~1/AppData/Local/Temp/anonymous4774webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641:26)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/DEEPSH~1/AppData/Local/Temp/anonymous4774webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewResume -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:hireSideAutomation.SearchResultPage@91cee]" name="teardown" is-config="true" duration-ms="640" started-at="2015-06-05T17:13:14Z" finished-at="2015-06-05T17:13:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- hireSideAutomation.SearchResultPage -->
+    </test> <!-- SRP -->
+  </suite> <!-- HIRE SIDE TEST CASES -->
+</testng-results>

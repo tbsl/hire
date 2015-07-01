@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HIRE SIDE TEST CASES" >
+  <test name="Registration">
+    <classes>
+      <class name="hireSideAutomation.hireRegistration"/>
+    </classes>
+  </test>
+  <test name="account">  
+      <classes>
+      <class name="hireSideAutomation.ManageAccountUser"/>
+    </classes>
+  </test> 
+  <test name="wizjob">  
+      <classes>
+      <class name="hireSideAutomation.EmployerPostingPreviewDraftEdit"/>
+    </classes>
+  </test> 
+  <test name="search">  
+      <classes>
+      <class name="hireSideAutomation.hireSearch"/>
+    </classes>
+  </test> 
+   <test name="Collaborate">  
+      <classes>
+      <class name="hireSideAutomation.hireCollaborate"/>
+    </classes>
+  </test> 
+  <test name="UsageReport">  
+      <classes>
+      <class name="hireSideAutomation.HireUsageReport"/>
+    </classes>
+  </test> 
+  <test name="Searchapplicationjob">  
+      <classes>
+      <class name="hireSideAutomation.searchApplication"/>
+    </classes>
+  </test> 
+  <test name="SRP">  
+      <classes>
+      <class name="hireSideAutomation.SearchResultPage"/>
+    </classes>
+  </test> 
+</suite> 
+
+
+
+ 
